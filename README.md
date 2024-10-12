@@ -1,5 +1,7 @@
 # **Comprehensive osTicket Setup and Configuration Guide**
 
+![osTicket Banner](https://github.com/KLavallais/KLavallais/blob/assets/osTicket%20Banner.png)
+
 Welcome to the **osTicket Configuration Guide**, detailing how to set up roles, departments, teams, SLAs, agents, users, and help topics. The guide also touches on the separation between the **Agent Panel** and **Admin Panel** for specific tasks.
 
 ---
@@ -25,6 +27,7 @@ Before diving into configuration, it’s important to distinguish between the **
 - **Agent Panel**: Used by agents for managing tickets, interacting with users, and managing day-to-day helpdesk tasks.
 
 ![Admin Panel Recognition](https://github.com/KLavallais/KLavallais/blob/assets/Recognizing%20Admin%20Panel.png)
+![Agent Panel Recognition](https://github.com/KLavallais/KLavallais/blob/assets/Recognizing%20Agent%20Panel.png)
 
 ---
 
@@ -37,6 +40,8 @@ Roles define what agents can do within osTicket. Set up roles for different leve
 Example: Creating the **Supreme Admin** role with full system permissions.
 
 ![Create Supreme Admin Role](https://github.com/KLavallais/KLavallais/blob/assets/Create%20Supreme%20Admin%20Role.png)
+
+![Supreme Admin Permissions](https://github.com/KLavallais/KLavallais/blob/assets/Role%20Permissions.png)
 
 ![Successfully Added Role](https://github.com/KLavallais/KLavallais/blob/assets/Successfully%20Added%20Role.png)
 
@@ -53,7 +58,9 @@ Service Level Agreements (SLAs) define the time frames within which tickets shou
 
 Here’s an example of configuring **Sev-A**:
 
-![SLA Plan Sev-A](https://github.com/KLavallais/KLavallais/blob/assets/SLA%20Plan%20Sev-A_0001.png)
+![SLA Plan Sev-A 01](https://github.com/KLavallais/KLavallais/blob/assets/SLA%20Plan%20Sev-A_0001.png)
+
+![SLA Plan Sev-A 02](https://github.com/KLavallais/KLavallais/blob/assets/SLA%20Plan%20Sev-A_0002.png)
 
 Similarly, **Sev-B** configuration:
 
@@ -93,7 +100,7 @@ In this example, we configure a team called **Blue Team** to handle cross-depart
 
 Once configured, the team appears in the team list:
 
-![Teams Configured](https://github.com/KLavallais/KLavallais/blob/assets/Select%20Agents%20Teams%20then%20Add%20New%20Team.png)
+![Teams Configured](https://github.com/KLavallais/KLavallais/blob/assets/Team%20Creation%20Completed.png)
 
 ---
 
@@ -121,19 +128,20 @@ Agents are responsible for managing and resolving tickets. Configure agents by a
 
 Example: Adding **Jane Doe** as an agent.
 
-![Create Agent Jane](https://github.com/KLavallais/KLavallais/blob/assets/Create%20Agent_0001.png)
+![Create Agent Jane](https://github.com/KLavallais/KLavallais/blob/assets/Create%20Agent_0003.png)
 
 Once added, assign the agent to their department (SysAdmins) and their role (Supreme Admin):
 
-![Agent Access Configuration](https://github.com/KLavallais/KLavallais/blob/assets/Create%20Agent_0002.png)
+![Agent Access Configuration](https://github.com/KLavallais/KLavallais/blob/assets/Create%20Agent_0004.png)
+![Agent Access Configuration](https://github.com/KLavallais/KLavallais/blob/assets/Create%20Agent_0005.png)
 
 Assign specific permissions for the agent, such as managing user accounts:
 
-![Configure Agent Permissions](https://github.com/KLavallais/KLavallais/blob/assets/Create%20Agent_0003.png)
+![Configure Agent Permissions](https://github.com/KLavallais/KLavallais/blob/assets/Create%20Agent_0006.png)
 
 Finally, assign the agent to a team, such as the **Blue Team**:
 
-![Assign Agent to Team](https://github.com/KLavallais/KLavallais/blob/assets/Create%20Agent_0004.png)
+![Assign Agent to Team](https://github.com/KLavallais/KLavallais/blob/assets/Create%20Agent_0007.png)
 
 ---
 
@@ -143,16 +151,16 @@ Users are the customers who will submit tickets. They can be added manually or a
 
 **Path**: Agent Panel -> Users -> Add New
 
-- **Karen**: Added as a user for submitting tickets.
-- **Ken**: Another user added to the system.
+- **Katie**: Added as a user for submitting tickets.
+- **Kenny**: Another user added to the system.
 
 Example: Adding **Katie Doe** as a user.
 
-![Create User Katie](https://github.com/KLavallais/KLavallais/blob/assets/Create%20User_0001.png)
+![Create User Katie](https://github.com/KLavallais/KLavallais/blob/assets/Create%20User_0003.png)
 
 Once configured, Katie appears in the user directory.
 
-![User Directory](https://github.com/KLavallais/KLavallais/blob/assets/Create%20User_0002.png)
+![User Directory](https://github.com/KLavallais/KLavallais/blob/assets/Create%20User_0004.png)
 
 ---
 
@@ -171,11 +179,11 @@ Example topics include:
 
 Here’s an example of adding a **Password Reset** help topic:
 
-![Add Help Topic](https://github.com/KLavallais/KLavallais/blob/assets/Help%20Topics_0001.png)
+![Add Help Topic](https://github.com/KLavallais/KLavallais/blob/assets/Help%20Topics_0004.png)
 
 Once added, the help topics appear in the list:
 
-![Help Topics Configured](https://github.com/KLavallais/KLavallais/blob/assets/Help%20Topics_0002.png)
+![Help Topics Configured](https://github.com/KLavallais/KLavallais/blob/assets/Help%20Topics_0005.png)
 
 ---
 
