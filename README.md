@@ -41,8 +41,10 @@ Example: Creating the **Supreme Admin** role with full system permissions.
 
 ![Create Supreme Admin Role](https://github.com/KLavallais/KLavallais/blob/assets/Create%20Supreme%20Admin%20Role.png)
 
+After setting permissions select '**Add Role**':
 ![Supreme Admin Permissions](https://github.com/KLavallais/KLavallais/blob/assets/Role%20Permissions.png)
 
+The role is now successfully added.
 ![Successfully Added Role](https://github.com/KLavallais/KLavallais/blob/assets/Successfully%20Added%20Role.png)
 
 ---
