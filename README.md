@@ -2,7 +2,7 @@
 
 ![osTicket Banner](https://github.com/KLavallais/KLavallais/blob/assets/osTicket%20Banner.png)
 
-Welcome to the **osTicket Configuration Guide**, detailing how to set up roles, departments, teams, SLAs, agents, users, and help topics. The guide also touches on the separation between the **Agent Panel** and **Admin Panel** for specific tasks.
+Welcome to this **osTicket Configuration Guide**, detailing how to set up roles, departments, teams, SLAs, agents, users, and help topics. The guide also touches on the separation between the **Agent Panel** and **Admin Panel** for specific tasks.
 
 ---
 
@@ -80,8 +80,9 @@ Departments allow you to organize tickets by areas of responsibility like Help D
 
 **Path**: Admin Panel -> Agents -> Departments
 
-Create departments that will be visible to agents based on their responsibilities. Example: Setting up **SysAdmins**.
+Create departments that will be visible to agents based on their responsibilities.
 
+Example: Setting up **SysAdmins**.
 ![Create SysAdmins Dept](https://github.com/KLavallais/KLavallais/blob/assets/Create%20SysAdmins%20Dept%20then%20choose%20SLA%20etc.png)
 
 After setting up the department, here is the department list:
@@ -96,7 +97,7 @@ Teams allow agents from different departments to collaborate on certain ticket c
 
 **Path**: Admin Panel -> Agents -> Teams
 
-In this example, we configure a team called **Blue Team** to handle cross-departmental issues, such as tickets related to **Online Banking**.
+In this example, we configure a team called **Blue Team** to handle cross-departmental issues, such as tickets related to **Compliance & Audit Issues**.
 
 ![Create Blue Team](https://github.com/KLavallais/KLavallais/blob/assets/Create%20Blue%20Team.png)
 
@@ -162,7 +163,8 @@ Example: Adding **Katie Doe** as a user.
 
 Once configured, Katie appears in the user directory.
 
-![User Directory](https://github.com/KLavallais/KLavallais/blob/assets/Create%20User_0004.png)
+![User Directory 1](https://github.com/KLavallais/KLavallais/blob/assets/Create%20User_0004.png)
+![User Directory 2](https://github.com/KLavallais/KLavallais/blob/assets/Katie%20and%20Kenny%20Doe.png)
 
 ---
 
