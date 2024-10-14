@@ -16,7 +16,7 @@ Welcome to this **osTicket Configuration Guide**, detailing how to set up roles,
 7. [Configuring Agents](#configuring-agents)
 8. [Configuring Users](#configuring-users)
 9. [Configuring Help Topics](#configuring-help-topics)
-
+10. [Possible Issues and Fixes](#possible-issues-and-fixes)
 ---
 
 ## **1. Recognizing the Admin vs. Agent Panel**
@@ -190,6 +190,36 @@ Once added, the help topics appear in the list:
 ![Help Topics Configured](https://github.com/KLavallais/KLavallais/blob/assets/Help%20Topics_0005.png)
 
 ---
+
+
+### **10. Possible Issues and Fixes**
+
+While setting up osTicket, you may encounter these common issues. Here are solutions to resolve them:
+
+1. **"Please take a minute to delete setup directory" Warning**  
+   - **Issue**: osTicket displays a warning asking you to delete the setup directory for security reasons.
+   - **Solution**: Navigate to the osTicket installation folder (e.g., `C:\inetpub\wwwroot\osTicket`) and delete the `setup` folder.  
+   
+   ![Delete Setup Directory Warning](https://github.com/KLavallais/KLavallais/blob/assets/Delete%20Setup%20Directory%20Warning.png)
+   
+   **Path**: `C:\inetpub\wwwroot\osTicket` -> Delete the "setup" folder to remove the security warning.
+   
+   ![Deleting Setup Folder](https://github.com/KLavallais/KLavallais/blob/assets/Delete%20Setup%20Folder%20Location.png)
+
+---
+
+2. **"Please change permission of config file (ost-config.php) to remove write access" Warning**  
+   - **Issue**: osTicket prompts you to remove write permissions from the `ost-config.php` file.
+   - **Solution**: Navigate to the `include` folder in your osTicket installation (`C:\inetpub\wwwroot\osTicket\include`), right-click `ost-config.php`, go to **Properties** > **Security**, and uncheck **Write** permissions for users.  
+
+   ![Config File Permissions Warning](https://github.com/KLavallais/KLavallais/blob/assets/Config%20File%20Permissions%20Warning.png)
+
+   Open the file properties and modify permissions:  
+
+   ![Config File Read-Only Setup](https://github.com/KLavallais/KLavallais/blob/assets/ost%20config%20read%20only.png)
+Set the **Read** and **Read & execute** permissions to allow access, but uncheck **Write** and everything else to prevent any modifications to the file. This ensures the ost-config.php file is secure and read-only as required by osTicket.
+---
+
 
 ## **Conclusion**
 
