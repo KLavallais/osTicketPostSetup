@@ -127,7 +127,7 @@ Agents are responsible for managing and resolving tickets. Configure agents by a
 **Path**: Admin Panel -> Agents -> Add New
 
 - **Jane**: Assigned to **SysAdmins**.
-- **John**: Assigned to **Support**.
+- **Jimmy**: Assigned to **Support**.
 
 Example: Adding **Jane Doe** as an agent.
 
@@ -218,6 +218,7 @@ While setting up osTicket, you may encounter these common issues. Here are solut
 
    ![Config File Read-Only Setup](https://github.com/KLavallais/KLavallais/blob/assets/ost%20config%20read%20only.png)
 Set the **Read** and **Read & execute** permissions to allow access, but uncheck **Write** and everything else to prevent any modifications to the file. This ensures the ost-config.php file is secure and read-only as required by osTicket.
+Once properly configured, hit **'Apply'**, then **'OK'.**
 ---
 
 
